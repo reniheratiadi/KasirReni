@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 27 Feb 2024 pada 11.58
+-- Waktu pembuatan: 28 Feb 2024 pada 04.01
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.1.12
 
@@ -148,7 +148,8 @@ CREATE TABLE `tbl_user` (
 
 INSERT INTO `tbl_user` (`id_user`, `kode_user`, `nama`, `email`, `password`, `level`) VALUES
 (6, 'USR01', 'lily', 'lilynaaa11@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', 1),
-(7, 'USR02', 'sifa', 'sifa23@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', 2);
+(7, 'USR02', 'sifa', 'sifa23@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', 2),
+(8, 'USR03', 'reni', 'reniputri052@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', 1);
 
 --
 -- Indexes for dumped tables
@@ -219,7 +220,7 @@ ALTER TABLE `tbl_produk`
 -- AUTO_INCREMENT untuk tabel `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
